@@ -65,10 +65,10 @@ measured.
 
 ```mermaid
 flowchart TD
-    A["🕐 Hero — value prop + live-ticking demo timer"] --> B["📊 Product section — dashboard mock, 4 clients"]
-    B --> C["✨ Features — 3 cards, plain copy"]
-    C --> D["🔢 How it works — Track → Invoice → Get paid"]
-    D --> E["📣 Closing CTA"]
+    A["🕐 Hero<br/>Value prop + live timer"] --> B["📊 Product<br/>Dashboard mock, 4 clients"]
+    B --> C["✨ Features<br/>3 cards"]
+    C --> D["🔢 How it works<br/>Track → Invoice → Get paid"]
+    D --> E["📣 CTA<br/>Closing call to action"]
     E --> F["Footer"]
 
     style A fill:#10151A,stroke:#D3963F,stroke-width:2px,color:#EDE6D6
