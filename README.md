@@ -65,19 +65,28 @@ measured.
 
 ```mermaid
 flowchart TD
-    A["🕐 Hero<br/>Value prop + live timer"] --> B["📊 Product<br/>Dashboard mock, 4 clients"]
-    B --> C["✨ Features<br/>3 cards"]
-    C --> D["🔢 How it works<br/>Track → Invoice → Get paid"]
-    D --> E["📣 CTA<br/>Closing call to action"]
-    E --> F["Footer"]
+    A[Hero] --> B[Product Demo]
+    B --> C[Features]
+    C --> D[How It Works]
+    D --> E[Closing CTA]
+    E --> F[Footer]
 
-    style A fill:#10151A,stroke:#D3963F,stroke-width:2px,color:#EDE6D6
+    style A fill:#10151A,stroke:#D3963F,color:#EDE6D6
     style B fill:#1A222A,stroke:#D3963F,color:#EDE6D6
     style C fill:#1A222A,stroke:#D3963F,color:#EDE6D6
     style D fill:#1A222A,stroke:#D3963F,color:#EDE6D6
-    style E fill:#10151A,stroke:#D3963F,stroke-width:2px,color:#EDE6D6
+    style E fill:#10151A,stroke:#D3963F,color:#EDE6D6
     style F fill:#1A222A,stroke:#2C3742,color:#A6AB9E
 ```
+
+| Section | What's there |
+|---|---|
+| **Hero** | Value prop + a live-ticking demo timer |
+| **Product Demo** | Dashboard mock — 4 clients, hours, invoice status |
+| **Features** | 3 cards, plain copy, no invented stats |
+| **How It Works** | Track → Invoice → Get paid |
+| **Closing CTA** | Repeats the primary call to action |
+| **Footer** | Minimal, copyright line |
 
 ### The signature element
 
